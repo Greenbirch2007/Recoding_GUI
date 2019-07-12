@@ -1,0 +1,56 @@
+
+tkinter编程
+
+创建一个GUI程序
+1.导入Tkinter模块
+2.创建控件
+3.制定这个控件的master,即这个控件属于哪一个
+4.告诉GM(geometry manager)有一个控件产生了
+
+控件   描述
+
+Button  按钮控件；在程序中显示按钮
+Canvas:画布控件
+Checkbutton:多选控件
+Entry:输入控件
+Frame:框架控件
+Label:标签控件
+Listbox:列表控件
+Menubutton:菜单按钮控件
+Menu:菜单控件
+Message:消息控件
+Radiobutton:单选按钮控件
+Scale:范围控件
+Scrollbar:滚动条控件
+Text:文本控件
+Toplevel:容器控件
+Spinbox:输入控件
+PanedWindox:PanedWindox是一个窗口布局管理的插件，可以包含一个或多个自控
+控件
+
+LabelFrame:labelframe是一个简单的容器控件，常用与复杂的布局
+
+tkMessageBox:用于显示你的应用程序的消息框
+
+标准属性
+
+标准属性就是所有控件的共同属性，如大小，字体和颜色等
+
+Dimension:控件大小
+Color:控件颜色
+Font:控件字体
+Anchor:锚点
+Relief:控件样式
+Bitmap:位图
+Cursor:光标
+
+几何管理
+
+Tkinter控件有特定的几何状态管理方法，管理整个控件区域组织，
+以下是tkinter公开的几何管理类：包，网络，位置
+
+几何方法  描述
+
+pack()  包装；
+grid()  网格;
+place()  位置

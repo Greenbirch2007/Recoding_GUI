@@ -1,0 +1,20 @@
+
+
+pyqt5
+
+下载离线whl文件 pip install 安装
+
+
+thinker
+
+sudo apt search python3-tk   python tkinter模块安装
+
+
+
+wxpython
+
+
+
+在Ubuntu系统中安装wxpython方法如下：
+
+打开控制台，输入命令apt-cache search wxpython。如果能返回wxpython的信息，则直接输入命令sudo apt-get install python-wxtools安装即可。
