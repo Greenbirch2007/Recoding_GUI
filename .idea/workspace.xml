@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bdbab0fa-b46e-46d2-a394-4f8700a346a8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyQT5_M/T/file2.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyQT5_M/T/file2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyQT5_M/T/file3.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyQT5_M/T/file3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyQT5_M/T/file4.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyQT5_M/T/file4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyQT5_M/T/file5.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyQT5_M/T/file5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyQT5_M/T/file6.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyQT5_M/T/file6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyQT5_M/T/file7.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyQT5_M/T/file7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyQT5_M/T/webwxgeticon.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyQT5_M/pyqt5教程.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pyQT5_M/pyqt5教程.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +15,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyQT5_M/T/file6.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
+            <state relative-caret-position="24718">
               <caret line="1454" column="27" selection-start-column="2" selection-end-line="1454" selection-end-column="27" />
             </state>
           </provider>
@@ -32,7 +24,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pyQT5_M/T/file7.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2822">
+            <state relative-caret-position="374">
               <caret line="166" selection-start-line="166" selection-end-line="166" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -250,13 +242,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="82" y="132" width="868" height="586" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.56788665" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.8043956" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.8043956" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39790577" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -332,14 +325,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pyQT5_M/T/file6.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
+        <state relative-caret-position="24718">
           <caret line="1454" column="27" selection-start-column="2" selection-end-line="1454" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pyQT5_M/T/file7.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2822">
+        <state relative-caret-position="374">
           <caret line="166" selection-start-line="166" selection-end-line="166" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />

@@ -145,12 +145,40 @@ pyinstaller分析myscript.py并执行以下操作：
 扩展令
 
 简单的打包
-https://mp.weixin.qq.com/s?__biz=MzIxNDMzMDQ2OQ==&mid=2247486248&idx=1&sn=3483ef8b81d60edef6111d6e83be230c&chksm=97a87622a0dfff349c1da4173c3cf4c2d8661cf0dd6f8fc91f2876ec41e56b6089752ef4e0d9&mpshare=1&scene=1&srcid=0708Fjv7gXWl9QxdR8vwzTq3&sharer_sharetime=1563866911146&sharer_shareid=5baeb4516dc33f60573dd0b37ccd54cf&pass_ticket=5K%2BDIDb8u2lMCYkVyFATJXuVEQnIR%2B2%2BAae8SyJW%2B0owmMl0L88TqdqQBl9w2z1J#rd
-在屏幕上出现大量的INFO信息后，我们看到
+pyinstaller calculator.py
+
+在屏幕上出现大量的INFO信息后，我们看到程序的当前目录出现了build,dist目录和
+calculator.spec文件
+在dist文件夹中，您可以找到分发给用户的捆绑应用程序calculator.exe
+除了这个文件外，还有65个文件供这个文件使用
+对于某些用途，可以编译myscript.spec的内容(在使用规范
+文件下描述)。执行此操作后，可以将pyinstaller.spec文件
+而不是脚本：
+pyinstaller myscript.spec
+
+myscript.spec文件包含以脚本文件作为参数运行时指定的选项
+提供的大部分信息。使用pyinstaller运行sepc文件时，
+通常不需要指定任何选项。从spec文件构建时，只有少数命令行选项有效
 
 
+还可以提供脚本或sepc文件的路径
+我们运行该程序的时候，出现一个命令行窗口，这个是方便我们
+进行命令行交互使用的，事实上这个程序我们不需要命令行交互
 
 
+单一文件打包
+
+试着把它打包成单一文件，同时去掉命令行窗口
+
+换图标
+
+我们选择的icon要负荷windows操作系统的标准
+
+应用程序图标和控制面板项，　代码比例介于３２和２５６之间
+.ico文件格式
 
 
+增加upx打包
+UPX是一种适用于大多数操作系统的免费实用程序。 UPX压缩可执行文件和库，使它们更小。
 
+UPX适用于大多数操作系统，可以压缩大量可执行文件格式。有关下载的信息，请参阅UPX主页，以及支持的可执行格式列表。
