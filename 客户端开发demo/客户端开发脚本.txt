@@ -1,0 +1,20 @@
+pip install pywin32 -i https://pypi.douban.com/simple
+
+
+pyinstaller -F -i test.ico gui_test.py
+
+
+pyinstaller -F --icon=3h.ico gui_test.py --noconsole
+
+
+C:\Users\PC\Desktop\t\picture\test.ico  
+C:\Users\PC\Desktop\t\gui_test.py
+
+
+# 图片加载成功
+pyinstaller -F -i  C:\Users\PC\Desktop\t\picture\test.ico    C:\Users\PC\Desktop\t\gui_test.py  
+
+
+
+#程序执行时不开启命令行
+pyinstaller -F -i  C:\Users\PC\Desktop\t\picture\test.ico    C:\Users\PC\Desktop\t\gui_test.py  --noconsole

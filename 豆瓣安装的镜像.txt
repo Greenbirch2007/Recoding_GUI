@@ -1,0 +1,6 @@
+
+pip install PyQt5==5.10.1  -i https://pypi.doubanio.com/simple/
+
+pip install PyQtWebEngine -i https://pypi.doubanio.com/simple/
+
+pip install pyinstaller -i https://pypi.doubanio.com/simple/
