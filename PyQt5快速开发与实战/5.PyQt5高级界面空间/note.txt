@@ -1,0 +1,39 @@
+
+第5章 PyQt5高级界面控件
+
+5.1 表格与树
+
+5.1.1 QTableView
+5.1.2  QListView 用于展示数据
+5.1.3 QListWidget
+
+5.1.4 QTableWidget 用于显示数据表格的控件
+5.1.5 QTreeView
+
+5.2 容器：装载更多的控件
+
+5.2.1 QTabWidget
+5.3.2 QThread
+
+应用案例：分离UI主线程与工作线程
+
+5.3.3 事件处理
+
+PyQt为时间处理提供了两种机制：高级的信号与槽机制，以及低级的事件处理程序。
+
+5.4 网页交互
+
+
+加载并显示外部的web页面
+加载并显示本地的web页面
+加载并显示嵌入的HTML代码
+
+PyQt调用javascript代码
+javascript调用pyqtdiam
+
+js调用pyqtDAIM ,是指pyqt可以与加载的web页面集进行双向的数据交互
+
+1.创建QWebChannel对象
+2.创建共享数据的PyQt对象
+3.创建调动PyQt的web页面
+

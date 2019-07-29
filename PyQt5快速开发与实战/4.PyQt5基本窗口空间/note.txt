@@ -1,0 +1,117 @@
+
+第4章 PyQt5基本窗口控件
+
+4.1 QMainWindow
+
+4.1.1  窗口类型介绍
+
+
+QMainWindow 是GUI的主窗口，可以包含菜单栏，工具栏，状态栏，标题栏等
+
+QDialog是对话窗口的基类。对话框主要用来执行短期任务，或与用户进行互动，它可以是模态的，
+也可以是飞模态的
+
+主窗口就用QMainWindow类
+对话框，就用QDialog类
+如果不确定，有可能是顶层窗口，也有可能嵌入到其他窗口就用QWidget类
+
+
+
+4.1.2 创建主窗口
+
+4.1.3 将主窗口放在屏幕中间
+
+QMainWindow利用QDesktopWidget类来实现主窗口居中显示
+4.1.4关闭主窗口
+
+4.2 QWidget
+
+基础窗口控件QWidget类是所有用户界面对象的基类，所有的窗口和控件都直接或间接
+继承自QWidget类
+
+4.2.1 窗口坐标系统
+4.2.2 常用的几何结构
+
+1.QWidget不包含边框的常用函数
+
+(1)改变客户区的面积
+(2)获得客户区的大小
+(3)获得客户区的宽度和高度
+(4)设置客户区的宽度和高度
+
+
+
+2.QWidget包含边框的常用函数
+
+4.2.3 创建第一个PyQt5应用
+建立一个主窗口
+
+4.2.4 为应用程序设置图标
+
+
+
+主要一个月实现一个xiaofur目标就就是胜利！
+
+4.2.5 显示气泡提示信息
+4.3 QLabel
+
+QObject--->QPaintDevice--->QWidget--->QFrame---->QLabel
+
+显示QLabel标签
+4.8 QLabel标签快捷键的使用
+
+4.4 文本框类控件
+
+4.4.1 QLineEdit
+
+QLineEdit类是一个单行文本框控件，可以输入单行字符串
+QTextEdit类可以输入多行字符串
+
+EchoMode的显示效果
+
+验证器
+输入掩码
+（相当于前端，限制输入的是数字还是字母）
+
+4.4.2 QTextEdit
+
+QTextEdit类是一个多行文本框控件，可以显示多行文本内容，当文本内容
+超出控件显示范围时，可以显示出水平个垂直滚动条
+QTextEdit不仅可以显示文本还可以显示HTML文档
+
+
+QTextEditSHIYOGN 
+
+4.5 按钮类控件
+4.5.1 QAbstractButton
+4.5.2 QPushButton
+4.5.3 QRadionButton
+4.5.4 QCheckBox
+4.6 QComboxBox(下拉列表框)
+4.7 QSpinBox(计数器)
+4.8 QSlider(滚动条)
+
+4.9 对话框类控件
+4.9.1 QDialog
+4.9.2 QMessageBox
+4.9.3 QInputDialog
+4.9.4  QFontDialog
+4.9.5 QFileDialog
+QFileDialog类用户打开和保存文件的标准对话框
+
+4.10 窗口绘图类控件
+
+4.10.1 QPainter
+
+绘制文字
+绘制点
+4.10.2 QPen
+
+4.10.4  QPixmap
+4.11 拖曳和剪切板
+
+4.11 Drag与Drop
+4.12 日历和时间
+4.13 菜单栏，工具栏和状态栏
+4.14 QPrinter
+
