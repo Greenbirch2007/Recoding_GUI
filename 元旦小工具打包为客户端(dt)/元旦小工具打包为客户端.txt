@@ -1,0 +1,25 @@
+
+
+
+
+# 图片加载成功
+pyinstaller -F -i  /home/w/Music/tools_app/picture/doc_tool.ico    /home/w/Music/tools_app/cross_cutdt.py
+
+
+
+#程序执行时不开启命令行
+pyinstaller -F -i  /home/w/Music/tools_app/picture/doc_tool.ico    /home/w/Music/tools_app/cross_cutdt.py  --noconsole
+
+
+
+换一个客户端图片
+
+
+
+pyinstaller -F -i  /home/w/Music/tools_app/picture/tool_dt.ico    /home/w/Music/tools_app/cross_cutdt.py
+
+
+
+#程序执行时不开启命令行
+pyinstaller -F -i  /home/w/Music/tools_app/picture/tool_dt.ico    /home/w/Music/tools_app/cross_cutdt.py  --noconsole
+
